@@ -1,0 +1,19 @@
+{
+  "slug": "malaysia",
+  "name": "Malaysia: Kuala Lumpur + Genting",
+  "region": "International",
+  "duration": "5D/4N",
+  "bestTime": "Nov–Mar",
+  "highlights": ["Petronas Towers","Batu Caves","Genting Highlands","Sunway Lagoon"],
+  "inclusions": ["Breakfasts","Airport transfers","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Visa","Theme park tickets"],
+  "dayByDay": [
+    {"day":1,"title":"KL tour","details":"Petronas photo/skybridge, Batu Caves."},
+    {"day":2,"title":"Genting Highlands","details":"Awana SkyWay; theme park (seasonal)."},
+    {"day":3,"title":"KL leisure","details":"Malls & street food; Thean Hou Temple."},
+    {"day":4,"title":"Sunway Lagoon or cultural tour","details":"Theme park or city culture."},
+    {"day":5,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Is Genting cold?","a":"Carry a light jacket; it’s cooler than KL."}],
+  "gallery": ["https://images.unsplash.com/photo-1525625293386-3f8f99389edd?q=80&w=1200&auto=format&fit=crop"]
+}

@@ -1,0 +1,21 @@
+{
+  "slug": "rajasthan",
+  "name": "Rajasthan: Jaipur–Jodhpur–Udaipur",
+  "region": "Domestic",
+  "duration": "7D/6N",
+  "bestTime": "Oct–Mar",
+  "highlights": ["Amber Fort & Hawa Mahal","Mehrangarh & Blue City","Lake Pichola cruise","City Palace Udaipur"],
+  "inclusions": ["Breakfasts","Private cab","City tours","All taxes"],
+  "exclusions": ["Flights","Entry fees","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Jaipur arrival","details":"City Palace, Jantar Mantar."},
+    {"day":2,"title":"Amber & City","details":"Amber Fort ride, Panna Meena Kund, Hawa Mahal; Chokhi Dhani."},
+    {"day":3,"title":"Drive to Jodhpur","details":"Mehrangarh Fort; Blue City walk."},
+    {"day":4,"title":"Jodhpur","details":"Bishnoi village safari; Umaid Bhawan."},
+    {"day":5,"title":"To Udaipur","details":"Drive and Lake Pichola sunset cruise."},
+    {"day":6,"title":"Udaipur","details":"City Palace, Saheliyon Ki Bari, Shilpgram."},
+    {"day":7,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Can we add Jaisalmer?","a":"Yes, extendable on request."}],
+  "gallery": ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop"]
+}

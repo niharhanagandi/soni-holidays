@@ -1,0 +1,20 @@
+{
+  "slug": "gujarat",
+  "name": "Gujarat: Ahmedabad–Dwarka–Somnath–Gir",
+  "region": "Domestic",
+  "duration": "6D/5N",
+  "bestTime": "Oct–Mar",
+  "highlights": ["Sabarmati Ashram","Dwarkadhish & Nageshwar","Somnath Temple","Gir Safari"],
+  "inclusions": ["Breakfasts","Transport","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Safari permits","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Ahmedabad","details":"Heritage; Sabarmati Ashram; Adalaj stepwell."},
+    {"day":2,"title":"Dwarka","details":"Dwarkadhish Temple; Nageshwar Jyotirlinga."},
+    {"day":3,"title":"Somnath","details":"Somnath Temple; Triveni Sangam; light & sound show."},
+    {"day":4,"title":"Gir","details":"Gir Safari; Devalia park."},
+    {"day":5,"title":"Junagadh","details":"Uparkot; return Ahmedabad."},
+    {"day":6,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Best time for Gir?","a":"Dec–Mar is ideal."}],
+  "gallery": ["https://images.unsplash.com/photo-1548013147-8696ce93e428?q=80&w=1200&auto=format&fit=crop"]
+}

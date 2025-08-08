@@ -1,0 +1,19 @@
+{
+  "slug": "dubai",
+  "name": "Dubai",
+  "region": "International",
+  "duration": "5D/4N",
+  "bestTime": "Nov–Mar",
+  "highlights": ["Dhow cruise","Desert safari","Burj Khalifa","Dubai Mall & Fountain"],
+  "inclusions": ["Breakfasts","Airport transfers","Tours as per plan","All taxes"],
+  "exclusions": ["Flights","Visa","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Marina Dhow cruise","details":"Evening cruise with dinner."},
+    {"day":2,"title":"City tour","details":"Jumeirah, Museum, Abra to Deira; Gold & Spice Souks."},
+    {"day":3,"title":"Desert safari","details":"Dune bashing, BBQ, shows."},
+    {"day":4,"title":"Burj Khalifa & Mall","details":"At The Top; Dubai Mall; Fountain show; optional Frame/Museum of the Future."},
+    {"day":5,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Is visa included?","a":"Can be added on request."}],
+  "gallery": ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop"]
+}

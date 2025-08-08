@@ -1,0 +1,19 @@
+{
+  "slug": "singapore",
+  "name": "Singapore",
+  "region": "International",
+  "duration": "5D/4N",
+  "bestTime": "All year",
+  "highlights": ["Night Safari","Gardens by the Bay","Sentosa attractions","Universal Studios"],
+  "inclusions": ["Breakfasts","Airport transfers","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Visa","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Night Safari","details":"Evening wildlife experience."},
+    {"day":2,"title":"City tour","details":"Merlion, Marina Bay Sands, Gardens by the Bay (Supertrees + Cloud Forest)."},
+    {"day":3,"title":"Sentosa","details":"Cable car, SEA Aquarium, Wings of Time."},
+    {"day":4,"title":"Universal Studios / Free","details":"Theme park or day at leisure."},
+    {"day":5,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Best area to stay?","a":"Marina Bay or Orchard for premium stays."}],
+  "gallery": ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop"]
+}

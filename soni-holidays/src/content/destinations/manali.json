@@ -1,0 +1,28 @@
+{
+  "slug": "manali",
+  "name": "Manali",
+  "region": "Domestic",
+  "duration": "6D/5N",
+  "bestTime": "Oct–Jun for snow/activities; Jul–Sep for lush rains",
+  "highlights": [
+    "Solang Valley adventures",
+    "Atal Tunnel & Sissu vistas",
+    "Naggar Castle & Roerich Art Gallery",
+    "Himachali cuisine"
+  ],
+  "inclusions": ["Hotels with breakfast","Airport/Bus transfers","Sightseeing as per plan","All taxes"],
+  "exclusions": ["Flights/Volvo tickets","Personal expenses","Adventure activity fees","Travel insurance"],
+  "dayByDay": [
+    {"day":1,"title":"Arrive Delhi → Manali","details":"Volvo/Private transfer to Manali; hotel check‑in; Mall Road evening."},
+    {"day":2,"title":"Solang Valley","details":"Paragliding/ATV/ropeway; Hadimba Temple; Old Manali café hop."},
+    {"day":3,"title":"Atal Tunnel & Sissu","details":"If open; Pandoh Dam viewpoints; local markets."},
+    {"day":4,"title":"Naggar & Kullu","details":"Naggar Castle, Roerich Gallery; Jana Waterfall; Kullu shawl weaving."},
+    {"day":5,"title":"Leisure / Optional rafting","details":"Free day; optional rafting in Kullu; Himachali dinner."},
+    {"day":6,"title":"Departure","details":"Checkout; transfer back to Delhi/Chandigarh; depart."}
+  ],
+  "faqs": [{"q":"Is Rohtang included?","a":"Rohtang permits are seasonal and can be added on request."}],
+  "gallery": [
+    "https://images.unsplash.com/photo-1545153996-4eae6a7b1a7b?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1542528180-a1208c5169a0?q=80&w=1200&auto=format&fit=crop"
+  ]
+}

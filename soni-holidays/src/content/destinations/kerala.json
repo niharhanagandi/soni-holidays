@@ -1,0 +1,21 @@
+{
+  "slug": "kerala",
+  "name": "Kerala: Kochi–Munnar–Thekkady–Alleppey",
+  "region": "Domestic",
+  "duration": "7D/6N",
+  "bestTime": "Sep–Mar",
+  "highlights": ["Munnar tea gardens","Periyar wildlife","Alleppey houseboat","Kathakali & Kalaripayattu"],
+  "inclusions": ["Breakfasts","Transport","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Boat safari tickets","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Kochi","details":"Fort Kochi, Chinese nets, Kathakali."},
+    {"day":2,"title":"Munnar","details":"Tea gardens; Eravikulam NP."},
+    {"day":3,"title":"Munnar","details":"Top Station; Kundala Lake."},
+    {"day":4,"title":"Thekkady","details":"Spice plantation; Kalaripayattu."},
+    {"day":5,"title":"Periyar","details":"Boat safari."},
+    {"day":6,"title":"Alleppey","details":"Houseboat overnight."},
+    {"day":7,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Houseboat meals included?","a":"Yes, all meals on board are included."}],
+  "gallery": ["https://images.unsplash.com/photo-1502082553048-f009c37129b9?q=80&w=1200&auto=format&fit=crop"]
+}

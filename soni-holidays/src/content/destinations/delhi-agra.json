@@ -1,0 +1,21 @@
+{
+  "slug": "delhi-agra",
+  "name": "Delhi–Agra",
+  "region": "Domestic",
+  "duration": "4D/3N",
+  "bestTime": "Oct–Mar",
+  "highlights": ["Qutub Minar & heritage","Old Delhi food walk","Taj Mahal sunrise","Agra Fort"],
+  "inclusions": ["Hotels with breakfast","AC transport","Guided tours","All taxes"],
+  "exclusions": ["Flights","Monument tickets","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Delhi arrival","details":"India Gate, Qutub Minar, Humayun’s Tomb."},
+    {"day":2,"title":"Old Delhi","details":"Jama Masjid, Chandni Chowk, Red Fort; street food experience."},
+    {"day":3,"title":"Agra day trip","details":"Taj Mahal sunrise, Agra Fort, Mehtab Bagh; return Delhi."},
+    {"day":4,"title":"Akshardham/Shopping","details":"Free time and departure."}
+  ],
+  "faqs": [{"q":"Is Taj closed on Fridays?","a":"Yes, Taj Mahal is closed on Fridays."}],
+  "gallery": [
+    "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1548013146-6eedf45f9f75?q=80&w=1200&auto=format&fit=crop"
+  ]
+}
