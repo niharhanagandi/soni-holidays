@@ -1,0 +1,32 @@
+{
+  "slug": "vietnam",
+  "name": "Vietnam",
+  "region": "International",
+  "duration": "7D/6N",
+  "bestTime": "Oct–Apr (dry, cool); May–Sep (rainy but lush)",
+  "highlights": [
+    "Ambassador Cruise in Halong Bay",
+    "Hanoi Old Quarter & City Tour",
+    "Ba Na Hills Golden Bridge",
+    "My Khe Beach sunset"
+  ],
+  "inclusions": ["Hotels with breakfast","Airport transfers","City tours","Professional guide","All taxes"],
+  "exclusions": ["Flights","Visas","Travel insurance","Personal expenses","Optional activities"],
+  "dayByDay": [
+    {"day":1,"title":"Arrive Hanoi","details":"Check-in, Old Quarter stroll, Water Puppet show."},
+    {"day":2,"title":"Hanoi City Tour","details":"Ho Chi Minh Complex, One Pillar Pagoda, Temple of Literature, Train Street."},
+    {"day":3,"title":"Halong Bay — Ambassador Cruise","details":"Cruise, caves, kayaking; overnight or long day cruise depending on package."},
+    {"day":4,"title":"Fly to Da Nang","details":"Marble Mountains, Dragon Bridge by night."},
+    {"day":5,"title":"Ba Na Hills Golden Bridge","details":"Cable car, French Village, Fantasy Park."},
+    {"day":6,"title":"My Khe Beach Day","details":"Relaxation, cafés, sunset walks."},
+    {"day":7,"title":"Departure","details":"Transfer out."}
+  ],
+  "faqs": [
+    {"q":"Do you assist with visas?","a":"Yes, we can assist on request."},
+    {"q":"Can we customize hotels and tours?","a":"Absolutely, all tours are fully customizable."}
+  ],
+  "gallery": [
+    "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?q=80&w=1200&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1491553895911-0055eca6402d?q=80&w=1200&auto=format&fit=crop"
+  ]
+}

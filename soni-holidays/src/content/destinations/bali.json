@@ -1,0 +1,20 @@
+{
+  "slug": "bali",
+  "name": "Indonesia – Bali",
+  "region": "International",
+  "duration": "6D/5N",
+  "bestTime": "Apr–Oct",
+  "highlights": ["Uluwatu sunset & Kecak","Nusa Penida","Ubud & rice terraces","Mount Batur sunrise"],
+  "inclusions": ["Breakfasts","Private transport","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Visa","Optional activities"],
+  "dayByDay": [
+    {"day":1,"title":"Uluwatu","details":"Sunset; Kecak dance."},
+    {"day":2,"title":"Nusa Penida","details":"Day trip."},
+    {"day":3,"title":"Ubud","details":"Monkey Forest, Tegalalang; coffee plantation."},
+    {"day":4,"title":"Mount Batur & spa","details":"Sunrise (optional); spa; beach club evening."},
+    {"day":5,"title":"Tanah Lot","details":"Temple and shopping."},
+    {"day":6,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Do we need sim cards?","a":"We can arrange eSIMs for convenience."}],
+  "gallery": ["https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1200&auto=format&fit=crop"]
+}

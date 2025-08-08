@@ -1,0 +1,20 @@
+{
+  "slug": "thailand",
+  "name": "Thailand: Bangkok–Pattaya",
+  "region": "International",
+  "duration": "6D/5N",
+  "bestTime": "Nov–Mar",
+  "highlights": ["Bangkok temples","Floating market","Alcazar show","Coral Island"],
+  "inclusions": ["Breakfasts","Airport transfers","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Visa on arrival fee","Watersports"],
+  "dayByDay": [
+    {"day":1,"title":"Bangkok temples","details":"Wat Arun, Wat Pho, Wat Phra Kaew."},
+    {"day":2,"title":"Markets & food","details":"Floating market; Chinatown food crawl."},
+    {"day":3,"title":"To Pattaya","details":"Transfer; Alcazar show."},
+    {"day":4,"title":"Coral Island","details":"Water sports."},
+    {"day":5,"title":"Pattaya","details":"Nong Nooch; Sanctuary of Truth."},
+    {"day":6,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Can we add Phuket?","a":"Yes, extend to 8 days for Phuket."}],
+  "gallery": ["https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1200&auto=format&fit=crop"]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "kashmir",
+  "name": "Kashmir: Srinagar–Gulmarg–Pahalgam",
+  "region": "Domestic",
+  "duration": "6D/5N",
+  "bestTime": "Mar–Jun & Sep–Nov",
+  "highlights": ["Shikara & Houseboat","Gulmarg Gondola","Mughal Gardens","Sonamarg day trip"],
+  "inclusions": ["Breakfasts","Transport","Local tours","All taxes"],
+  "exclusions": ["Flights","Gondola tickets","Pony rides","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"Srinagar","details":"Shikara; Houseboat."},
+    {"day":2,"title":"Gulmarg","details":"Gondola (Phase 1/2)."},
+    {"day":3,"title":"Pahalgam","details":"Aru, Betaab, Chandanwadi."},
+    {"day":4,"title":"Crafts & Gardens","details":"Papier‑mâché, Pashmina; Mughal Gardens."},
+    {"day":5,"title":"Sonamarg","details":"Day trip; Thajiwas Glacier pony (optional)."},
+    {"day":6,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Is it safe?","a":"We monitor local advisories and plan accordingly."}],
+  "gallery": ["https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1200&auto=format&fit=crop"]
+}

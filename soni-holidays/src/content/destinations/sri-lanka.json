@@ -1,0 +1,20 @@
+{
+  "slug": "sri-lanka",
+  "name": "Sri Lanka",
+  "region": "International",
+  "duration": "6D/5N",
+  "bestTime": "Dec–Mar (south/west)",
+  "highlights": ["Kandy & Temple of the Tooth","Tea country & Ella train","Yala safari","Galle Fort & beaches"],
+  "inclusions": ["Breakfasts","Transport","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Visa","Safari permits"],
+  "dayByDay": [
+    {"day":1,"title":"Colombo to Kandy","details":"Pinnawala; Temple of the Tooth."},
+    {"day":2,"title":"Nuwara Eliya","details":"Tea factory; Gregory Lake."},
+    {"day":3,"title":"Ella train","details":"Nine Arches Bridge."},
+    {"day":4,"title":"Yala","details":"Optional safari."},
+    {"day":5,"title":"Galle & Unawatuna","details":"Galle Fort; beach time."},
+    {"day":6,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"When is Yala open?","a":"Usually Feb–Jul; schedules vary."}],
+  "gallery": ["https://images.unsplash.com/photo-1543247787-8183b2e0f43b?q=80&w=1200&auto=format&fit=crop"]
+}

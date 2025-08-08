@@ -1,0 +1,18 @@
+{
+  "slug": "goa",
+  "name": "Goa",
+  "region": "Domestic",
+  "duration": "4D/3N",
+  "bestTime": "Nov–Feb, Monsoon for lush scenery",
+  "highlights": ["Beaches North & South","Fort Aguada","Old Goa churches","Mandovi cruise"],
+  "inclusions": ["Breakfasts","Airport transfers","Sightseeing","All taxes"],
+  "exclusions": ["Flights","Watersports","Personal expenses"],
+  "dayByDay": [
+    {"day":1,"title":"North Goa","details":"Beaches; Fort Aguada."},
+    {"day":2,"title":"Panjim & Old Goa","details":"Churches; Panjim; cruise on Mandovi."},
+    {"day":3,"title":"South Goa","details":"Beaches; Cabo de Rama sunset."},
+    {"day":4,"title":"Depart","details":"Departure."}
+  ],
+  "faqs": [{"q":"Best area to stay?","a":"North for nightlife, South for tranquil beaches."}],
+  "gallery": ["https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1200&auto=format&fit=crop"]
+}
