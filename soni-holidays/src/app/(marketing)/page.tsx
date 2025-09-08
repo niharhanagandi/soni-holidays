@@ -2,6 +2,8 @@ import Hero from '@/components/Hero';
 import Card from '@/components/Card';
 import { destinations } from '@/content/destinations';
 import Link from 'next/link';
+import LeadForm from '@/components/LeadForm';
+import Testimonials from '@/components/Testimonials';
 
 export default function HomePage() {
   const featured = destinations.slice(0, 6);
@@ -49,6 +51,24 @@ export default function HomePage() {
           <Link className="btn-outline" href="/contact">Talk to us</Link>
         </div>
       </section>
+      <section className="container py-16">
+        <div className="grid md:grid-cols-2 gap-8 items-start">
+          <div>
+            <h3 className="text-xl font-semibold mb-2">Quick enquiry</h3>
+            <p className="text-gray-700 mb-4">Tell us a bit about your trip. We’ll call you back with a tailored suggestion.</p>
+            <LeadForm sourcePage="/" />
+          </div>
+          <div className="card p-6">
+            <h4 className="font-semibold mb-2">Why Soni Holidays?</h4>
+            <ul className="space-y-2 text-gray-700 list-disc pl-5">
+              <li>Premium, handpicked stays and transport</li>
+              <li>Curated itineraries for students, corporates and families</li>
+              <li>Seamless coordination and 24×7 support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <Testimonials />
     </div>
   );
 }

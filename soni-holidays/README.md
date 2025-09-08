@@ -2,6 +2,58 @@
 
 Premium customised tours across India and the world!
 
+## Quick start
+
+```bash
+npm i
+npm run dev
+```
+
+Open http://localhost:3000
+
+## Environment variables
+
+Copy `.env.example` to `.env.local` and fill:
+
+- NEXT_PUBLIC_SITE_URL: Base URL
+- NEXTAUTH_SECRET: `openssl rand -base64 32`
+- SUPABASE_URL / SUPABASE_ANON_KEY / SUPABASE_SERVICE_ROLE_KEY
+- NEXT_PUBLIC_SUPABASE_URL / NEXT_PUBLIC_SUPABASE_ANON_KEY
+- RESEND_API_KEY (or SMTP_* for fallback)
+- EMAIL_FROM, CONTACT_EMAIL
+- SHEETS_WEBAPP_URL (Apps Script Web App URL)
+- NEXT_PUBLIC_TIDIO_SNIPPET (optional)
+
+## Google Sheets Web App
+
+1. Create a Google Sheet named `SoniHolidays_Leads`
+2. Extensions → Apps Script → paste `docs/SheetsWebApp.gs`
+3. Deploy → New deployment → Type: Web app; Execute as: Me; Access: Anyone with the link
+4. Copy the Web App URL to `SHEETS_WEBAPP_URL`
+
+## Netlify
+
+`netlify.toml` is configured with Next.js plugin. Set environment variables in Netlify dashboard and deploy.
+
+## Tech
+
+- Next.js App Router + TypeScript
+- Tailwind CSS
+- next-seo
+- Supabase (Postgres)
+- Resend / SMTP via Nodemailer
+
+## Testing
+
+Run Playwright smoke tests:
+
+```bash
+npm run playwright
+```
+
+
+Premium customised tours across India and the world!
+
 ## Tech Stack
 - Next.js 14 (App Router) + TypeScript
 - Tailwind CSS
