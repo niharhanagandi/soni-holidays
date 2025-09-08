@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Playfair_Display } from 'next/font/google';
 import '@/app/(marketing)/globals.css';
 
 import Header from '@/components/Header';
@@ -8,11 +8,19 @@ import { Analytics } from '@/lib/analytics';
 import CookieNotice from '@/app/(marketing)/cookie-notice';
 
 const inter = Inter({ subsets: ['latin'] });
+const playfair = Playfair_Display({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Soni Holidays — Premium customised tours across India and the world!',
   description:
     'Soni Holidays designs premium, fully-customised tours for students, corporates, and families across India and the world. Elegant service, seamless experiences.',
+  openGraph: {
+    title: 'Soni Holidays',
+    description: 'Premium customised tours across India and the world!',
+    type: 'website',
+    images: [{ url: '/logo.png' }],
+  },
+  metadataBase: new URL(process.env.SITE_URL || 'http://localhost:3000'),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -32,18 +40,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           WhatsApp
         </a>
         <CookieNotice />
-        {/* Tidio */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                var KEY = '${tidioKey}';
-                function t(){var s=document.createElement("script");s.src="https://code.tidio.co/"+KEY+".js";document.body.appendChild(s);}
-                if(document.readyState==="complete") t(); else window.addEventListener("load",t);
-              })();
-            `,
-          }}
-        />
+        {/* Tidio opt-in via env */}
+        {process.env.NEXT_PUBLIC_TIDIO_SNIPPET && (
+          <script
+            dangerouslySetInnerHTML={{ __html: process.env.NEXT_PUBLIC_TIDIO_SNIPPET as string }}
+          />
+        )}
       </body>
     </html>
   );

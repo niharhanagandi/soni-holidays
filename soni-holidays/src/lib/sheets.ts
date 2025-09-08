@@ -1,25 +1,22 @@
-import { GoogleSpreadsheet } from 'google-spreadsheet';
+export type SheetPayload = Record<string, any> & { timestampISO?: string };
 
-function hasCreds() {
-  return !!(process.env.GOOGLE_SHEETS_SPREADSHEET_ID && process.env.GOOGLE_CLIENT_EMAIL && process.env.GOOGLE_PRIVATE_KEY);
-}
-
-export async function appendRow(sheetName: string, data: Record<string, any>) {
-  if (!hasCreds()) {
-    console.log('[sheets] Dry run:', sheetName, data);
-    return { ok: true, dryRun: true } as const;
+export async function appendRow(sheetName: string, data: SheetPayload) {
+  const webapp = process.env.SHEETS_WEBAPP_URL;
+  if (!webapp) {
+    console.log('[sheets] Skipping, no SHEETS_WEBAPP_URL');
+    return { ok: true, skipped: true } as const;
   }
-  const doc = new GoogleSpreadsheet(process.env.GOOGLE_SHEETS_SPREADSHEET_ID!, {
-    clientEmail: process.env.GOOGLE_CLIENT_EMAIL!,
-    privateKey: (process.env.GOOGLE_PRIVATE_KEY || '').replace(/\\n/g, '\n'),
-  } as any);
-  await doc.loadInfo();
-  let sheet = doc.sheetsByTitle[sheetName];
-  if (!sheet) {
-    sheet = await doc.addSheet({ title: sheetName, headerValues: Object.keys(data) });
-  } else {
-    if (!sheet.headerValues?.length) await sheet.setHeaderRow(Object.keys(data));
+  try {
+    const res = await fetch(webapp, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ ...data, timestampISO: data.timestampISO || new Date().toISOString() }),
+      // Apps Script requires no-cors in browser; but here we are on server.
+    });
+    if (!res.ok) throw new Error(`Sheets webapp responded ${res.status}`);
+    return { ok: true } as const;
+  } catch (err) {
+    console.error('[sheets] Error', err);
+    return { ok: false, error: String(err) } as const;
   }
-  await sheet.addRow(data as any);
-  return { ok: true } as const;
 }
